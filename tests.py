@@ -5,7 +5,6 @@ test1 = "in the millennial kingdom)-Num. 14:27-30; Phil. 3:12-14: Ten of the twe
 test1_answer = [("Num.", " 14:27-30; "), ("Phil.", " 3:12-14: Ten of the twelve men")]
 
 class TestSplitByBooks(unittest.TestCase):
-    # Test the add function
     def test_split_by_books(self):
         self.assertEqual(test1_answer, split_by_books(test1))
 

@@ -34,6 +34,8 @@ def runAndPrint(s):
         print("-----")
         print(book + "\n" + section)
 
+
+# main
 s = f.read()
 runAndPrint(s)
 f.close()
@@ -46,4 +48,3 @@ Edge cases:
 4) Genesis 1:9-10 and 13
 5)
 '''
-f.close()
